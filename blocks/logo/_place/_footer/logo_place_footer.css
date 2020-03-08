@@ -1,0 +1,11 @@
+.logo_place_footer {
+  background-image:url(/images/logo_white.png);
+  width: 183px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

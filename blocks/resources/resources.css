@@ -1,0 +1,9 @@
+/*These are the styles used for the resources section*/
+@import url(./__logo-zone/resources__logo-zone.css);
+@import url(./__logo/resources__logo.css);
+.resources {
+  background-color: white;	
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,12 @@
+/*These styles will be used for multiple sections; no need for section names*/
+.section-title {
+  width: 60%;
+  font-size: 60px;
+  line-height: 1.15;
+  font-weight: bold;
+  text-align: center;
+  align-self: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  z-index: 2;
+}

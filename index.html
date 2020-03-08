@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/index.css">
   <meta name="description" content="Omar's first project at Practicum by Yandex">
   <meta name="keywords" content="html, css, bem, flex">
   <meta name="author" content="Omar Insurriaga">
@@ -40,7 +39,6 @@
       </section>
       <!--New block-->
       <section class="techniques">
-      	<!--This code will be used in other sections; no need for specific section names-->
         <h2 class="section-title">Learning Techniques</h2>
         <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
         <div class="cards">
@@ -75,44 +73,11 @@
       </section>
       <!--New block with Youtube videos-->
       <section class="video">
-      	<!--This code will be used in other sections; no need for specific section names-->
         <h2 class="section-title">TED Talks </h2>
         <p class="section-subtitle">For lovers of procrastination</p>
-        <div class="table">
-          <div class="table__cell">
-            <h3 class="table__heading">86 billion</h3>
-            <p class="table__text">The number of neurons in the human brain</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">2.1 billion</h3>
-            <p class="table__text">The number of adults with low reading proficiency</p>
-            <p class="table__text">World Bank, 2017</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">1,000 terabytes</h3>
-            <p class="table__text">Human information storage capacity</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">500 trillion</h3>
-            <p class="table__text">The number of nerve synapses responsible for learning in an adult human</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">420 million</h3>
-            <p class="table__text">The number of adults under 25 with insufficient education for finding employment</p>
-            <p class="table__text">World Bank, 2017</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">17 - 20 years old</h3>
-            <p class="table__text">Peak learning age</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">1885</h3>
-            <p class="table__text">Development of the forgetting curve</p>
-          </div>
-          <div class="table__cell">
-            <h3 class="table__heading">1897</h3>
-            <p class="table__text">Publication of Ivan Pavlov's research on classical conditioning</p>
-          </div>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>      
         </div>
       </section>
       <section class="oakley">
@@ -122,7 +87,7 @@
             <p class="two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a humanities
               person, and not a brilliant one at that. With an eye to becoming a linguist, after school she enlisted in the army, who sent her 
               to learn Russian. After several years of service, during which she rose to the rank of Captain, Barbara left the army and decided 
-              to study engineering. In was during this time that she developed her learning methodology as she was forced to reprogram her brain
+              to study engineering. It was during this time that she developed her learning methodology as she was forced to reprogram her brain
               for a different kind of learning. It turns out that when something doesn't come naturally to you, having to work hard to gain the 
               knowledge that other people may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.</p>
           </div>
@@ -134,7 +99,7 @@
         <p class="feynman__subtitle">Learn without forgetting.</p>
         <a href="#" class="feynman__link">More →</a>
       </section>
-      <!--New psoition of this block-->
+      <!--New position of this block-->
       <section class="digits">
         <h2 class="section-title">Facts and figures</h2>
         <p class="section-subtitle">On learning and the brain</p>
@@ -172,6 +137,22 @@
           <div class="table__cell">
             <h3 class="table__heading">1897</h3>
             <p class="table__text">Publication of Ivan Pavlov's research on classical conditioning</p>
+          </div>
+        </div>
+      </section>
+      <!--New block-->
+      <section class="khan">
+        <div class="khan__container">
+          <h2 class="khan__author">Salman Khan </h2>
+          <p class="khan__title">The One World Schoolhouse</p>
+          <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of students worldwide. The One World
+          Schoolhouse is a must-read for all who are committed to improving education so students everywhere can gain the skills and knowledge
+          to be successful in school, careers and life.</p>
+          <h2 class="khan__quote-author">George Lucas </h2>
+          <h2 class="khan__quote-author-subline">Filmmaker </h2>
+          <div class="khan__book-container">
+            <img class="khan__book-pic" src="images/book.png" alt="Image of The One World Schoolhouse book">
+            <a href="#" class="khan__buy-link">Buy book →</a>      
           </div>
         </div>
       </section>
@@ -223,6 +204,17 @@
           </div>
         </div>
         <div class="kaufman__triangle rotation"></div>
+      </section>
+      <!--New block-->
+      <section class="resources">
+        <h2 class="section-title">Useful resources</h2>
+        <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+        <div class="resources__logo-zone">
+          <a href="#"><img class="resources__logo" src="images/logo/tedED.png" alt="TED Ed"></a>
+          <a href="#"><img class="resources__logo" src="images/logo/medium.png" alt=" Medium"></a>
+          <a href="#"><img class="resources__logo" src="images/logo/dezeen.png" alt="De Zeen"></a>
+          <a href="#"><img class="resources__logo" src="images/logo/goodreads.png" alt="goodreads"></a>      
+        </div>
       </section>
     </main>
     <footer class="footer">

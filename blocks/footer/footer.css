@@ -1,0 +1,83 @@
+/*These are the styles used for the footer section*/
+/*@import url(./__author/footer__author.css);
+@import url(./__column-heading/footer__column-heading.css);
+@import url(./__column-links/footer__column-links.css);
+@import url(./__columns/footer__columns.css);
+@import url(./__link/footer__link.css);
+@import url(./__list-item/footer__list-item.css);
+@import url(./__social-icons/footer__social-icons.css);
+@import url(./__column/_content_copyright/);
+/*These are the styles used for the footer section*/
+.footer {
+  min-height: 350px;
+  background-color: #1F1F1F;;	
+  color: white;
+  padding-right: 0;
+  padding-left: 0; 
+}
+
+.logo_place_footer {
+  background-image:url(/images/logo_white.png);
+  width: 183px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*This is the block for the footer content*/
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 711px;
+  margin: auto; 
+  min-height: 252px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}  
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer__author {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	line-height: 25px;
+	font-size: 18px;
+	color: #4F4F4F;
+}
+
+.footer__column-heading {
+	line-height: 45px;
+	font-size: 18px;
+	color: #FFFFFF;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+.footer__column-links {
+	padding: 0;
+}
+
+.footer__list-item {
+	display: block;
+}
+
+.footer__link {
+	text-decoration: none;
+	line-height: 30px;
+	font-size: 18px;
+	color: #4F4F4F;
+}
+
+.footer__social-icons {
+	margin-right: 10px;
+}

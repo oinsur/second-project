@@ -1,0 +1,37 @@
+/*These are styles applied to the page and also the link transition*/
+.page {
+	min-width: 1100px;
+	/* we don't know how to make mobile versions of websites yet, */
+	/* so here we've set a minimum page width */
+	max-width: 1600px;
+	/* here we've set a maximum page width */
+	margin: 0 auto;
+	/* this ensures that all content is centered on screens wider than 1600px */
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/*This style is used for the links*/
+a:hover {
+  transition: 2s ease;
+  opacity: 50%;
+}
+/*these are just to help see the different areas*/
+/*div {
+  border: 2px solid red;
+}
+
+section {
+  border: 2px solid green;
+}
+
+h2,h1 {
+  border: 2px solid #F0F;	
+}
+
+h3 {
+  border: 2px solid #0CC;	
+}
+
+p {
+  border: 2px solid #F0F;
+}*/

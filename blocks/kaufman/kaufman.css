@@ -1,0 +1,13 @@
+/*These are the styles used for the Kaufman section*/
+@import url(./__triangle/kaufman__triangle.css);
+.kaufman {
+  /*This is the shade of black to use for this section and the footer*/
+  background-color: #1F1F1F;	
+  color: white;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+	position: relative;
+}
