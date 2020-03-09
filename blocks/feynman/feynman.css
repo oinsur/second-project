@@ -5,9 +5,8 @@
 
 .feynman {
   background-color: #F2F2F2;
-  padding-top: 100px;
   height: 790px;    
-  background-image: url(/images/feynman.png);
+  background-image: url(../../images/feynman.png);
   /*need to specify background image dimensions*/
   background-size: 867px 637px;
   background-repeat: no-repeat;

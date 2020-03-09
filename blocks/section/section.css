@@ -1,2 +1,2 @@
-@import url(./section-title.css);
-@import url(./section-subtitle.css);
+@import url(./__title/section__title.css);
+@import url(./__subtitle/section-subtitle.css);

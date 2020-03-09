@@ -10,11 +10,6 @@
 	font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/*This style is used for the links*/
-a:hover {
-  transition: 2s ease;
-  opacity: 50%;
-}
 /*these are just to help see the different areas*/
 /*div {
   border: 2px solid red;

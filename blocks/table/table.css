@@ -1,3 +1,7 @@
+@import url(./__cell/table__cell.css);
+@import url(./__heading/table__heading.css);
+@import url(./__text/table__text.css);
+@import url(./__cell/_theme/table__cell_theme_dark.css);
 /*These are the styles used for the tables*/
 .table {
   width: 1100px;
@@ -7,31 +11,4 @@
   align-content: space-between;
   flex-wrap: wrap;  
   z-index: 2;
-}
-
-.table__cell {
-  margin-top: 60px;
-  width: 250px;
-}
-
-.table__heading {
-  margin-top: 0;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.15;
-}
-
-.table__text {
-  font-size: 18px;
-  font-style: normal;
-  line-height: 1.2;
-  margin-top: 20px;
-}
-
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
 }

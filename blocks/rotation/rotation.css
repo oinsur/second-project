@@ -1,8 +1,4 @@
-.rotation {animation: rotation 20s ease infinite;
-}
-
-
-/*This the animation for the blue square*/
+/*This the animation for the blue square and triangle*/
 @keyframes rotation {
   from {
       transform: rotate(0deg);
@@ -10,4 +6,7 @@
   to {
       transform: rotate(360deg);
   }
+}
+
+.rotation {animation: rotation 20s ease infinite;
 }

@@ -1,8 +1,0 @@
-.video__iframe {
-  width: 515px;
-  height: 316px;
-}
-
-/*This will add the space between the two videos*/
-.video__iframe:last-of-type {
-  margin-left: 20px;
